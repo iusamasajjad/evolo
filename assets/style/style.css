@@ -1,0 +1,146 @@
+@font-face {
+  font-family: CircularStdBook;
+  src: url("../font/Circular-Std-Book/Circular\ Std\ Book.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: CircularStdBook !important;
+  background-color: #f4f6fc !important;
+}
+/* common-classess */
+.h-100vh{
+  height: 100vh;
+}
+.py-10 {
+  padding: 100px 0px;
+}
+.top-14{
+  top: 14px;
+}
+.px-10 {
+  padding: 0px 100px;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.z-1 {
+  z-index: -1;
+}
+.font-md {
+  font-size: 16px;
+  font-weight: normal;
+}
+.font-sm {
+  font-size: 11px;
+  color: #8c98a9 !important;
+  font-weight: normal;
+}
+.max-auto {
+  margin: 0 auto;
+}
+.b-blue {
+  background-color: #0089f3;
+}
+.b-dulWhite {
+  background-color: #e0e7ff;
+}
+.text-blue {
+  color: #0089f3;
+}
+/* ========= main-form-start ============ */
+
+.form {
+  padding: 20px 0;
+  box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.03);
+  background-color: #fff;
+}
+.form h4 {
+  color: #2e384d;
+  font-weight: normal;
+}
+
+.form-header p:nth-child(1) {
+  color: #2e384d;
+}
+.form-header p:nth-child(2) {
+  color: #2e384d;
+  opacity: 0.66;
+}
+.form-header .border-b {
+  width: 125px;
+  height: 3px;
+}
+.mask-img {
+  max-width: 300px;
+  max-height: 200px;
+}
+.evo-bg {
+  background-color: #f9faff;
+}
+.cross {
+  width: 30px;
+  height: 30px;
+  opacity: 0.43;
+  background-color: #dce1ee;
+}
+
+form input {
+  outline-color: #0089f3;
+  border: solid 1px #e0e7ff;
+  border-radius: 5px;
+  background-color: rgba(224, 231, 255, 0.2);
+  padding: 8px 10px;
+  padding-right: 40px;
+}
+form label {
+  font-size: 16px;
+  font-weight: normal;
+  color: #8c98a9;
+  margin: 0;
+}
+form button {
+  padding: 10px 100px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0089f3;
+  color: #fff;
+}
+.eye {
+  top: 0;
+  right: -10px;
+}
+
+.bottom-img {
+  bottom: 0px;
+}
+@media (max-width: 479px) and (min-width: 320px) {
+  .top-bottom-img img {
+    max-width: 190px;
+  }
+  .px-10{
+      padding: 0px 0px  !important;
+  }
+}
+@media (max-width: 767px) and (min-width: 685px) { 
+    .top-bottom-img img {
+        max-width: 190px;
+      }
+      .px-10{
+          padding: 0px 0px  !important;
+      } 
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .top-bottom-img img {
+        max-width: 190px;
+      }
+      .px-10{
+          padding: 0px 0px  !important;
+      }
+ }  
+@media (max-width: 991px) and (min-width: 768px) {
+  .main-form {
+    flex-direction: column !important;
+    display: flex !important;
+  }
+}
