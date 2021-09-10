@@ -81,8 +81,12 @@ body {
 .cross {
   width: 30px;
   height: 30px;
-  opacity: 0.43;
+  opacity: 0.7;
   background-color: #dce1ee;
+}
+.cross:hover{
+  opacity: unset;
+  transition: 0.4s;
 }
 
 form input {
@@ -94,7 +98,7 @@ form input {
   padding-right: 40px;
 }
 form label {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: normal;
   color: #8c98a9;
   margin: 0;
