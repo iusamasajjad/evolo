@@ -13,7 +13,7 @@ body {
   height: 100vh;
 }
 .py-10 {
-  padding: 100px 0px;
+  padding: 80px 0px;
 }
 .top-14{
   top: 14px;
@@ -95,7 +95,6 @@ form input {
   border-radius: 5px;
   background-color: rgba(224, 231, 255, 0.2);
   padding: 8px 10px;
-  padding-right: 40px;
 }
 form label {
   font-size: 13px;
@@ -116,7 +115,11 @@ form button {
 }
 
 .bottom-img {
-  bottom: 0px;
+  bottom: 0;
+  right: 0;
+}
+.mask-img-end img{
+  width: 100%;
 }
 @media (max-width: 479px) and (min-width: 320px) {
   .top-bottom-img img {
@@ -125,13 +128,29 @@ form button {
   .px-10{
       padding: 0px 0px  !important;
   }
+  .h-100vh{
+    height: unset !important;
+  }
 }
+@media (max-width: 567px) and (min-width: 480px) { 
+  .h-100vh{
+    height: unset !important;
+  }
+}
+@media (max-width: 684px) and (min-width: 568px) { 
+  .h-100vh{
+    height: unset !important;
+  }
+} 
 @media (max-width: 767px) and (min-width: 685px) { 
     .top-bottom-img img {
         max-width: 190px;
       }
       .px-10{
           padding: 0px 0px  !important;
+      }
+      .h-100vh{
+        height: unset !important;
       } 
 }
 @media (max-width: 991px) and (min-width: 768px) {
@@ -141,10 +160,16 @@ form button {
       .px-10{
           padding: 0px 0px  !important;
       }
+      .h-100vh{
+        height: unset !important;
+      }
  }  
 @media (max-width: 991px) and (min-width: 768px) {
   .main-form {
     flex-direction: column !important;
     display: flex !important;
+  }
+  .h-100vh{
+    height: unset !important;
   }
 }
