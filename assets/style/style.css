@@ -32,7 +32,6 @@ body {
   font-weight: normal;
 }
 .fa {
-  font-weight: 600 !important;
   opacity: 0.8;
 }
 .font-sm {
@@ -58,12 +57,12 @@ body {
   padding: 20px 0;
   box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.03);
   background-color: #fff;
+  border-radius: 0px 8px 8px 0px;
 }
 .form h4 {
   color: #2e384d;
   font-weight: normal;
 }
-
 .form-header p:nth-child(1) {
   color: #2e384d;
 }
@@ -81,12 +80,20 @@ body {
 }
 .evo-bg {
   background-color: #f9faff;
+  border-radius: 8px 0px 0px 8px;
 }
 .cross {
   width: 30px;
   height: 30px;
   opacity: 0.7;
+  font-size: 16px;
   background-color: #dce1ee;
+}
+.hoverEffect:hover {
+  font-weight: 700;
+}
+a:hover {
+  text-decoration: none !important;
 }
 .cross:hover {
   opacity: unset;
@@ -119,6 +126,7 @@ form button:hover {
 }
 .eye {
   z-index: 2;
+  opacity: 0.5;
   top: 10px;
   right: 10px;
 }
