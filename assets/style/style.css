@@ -109,6 +109,10 @@ form button {
   background-color: #0089f3;
   color: #fff;
 }
+form button:hover{
+  opacity: 0.95;
+  transition: 0.4s;
+}
 .eye {
   top: 0;
   right: -10px;
@@ -121,6 +125,17 @@ form button {
 .mask-img-end img{
   width: 100%;
 }
+
+/* ========= validation-styling ============== */
+
+.has-error input{
+  border: 3px solid red !important;
+  outline: none;
+}
+.error,label{
+  color: red;
+}
+
 @media (max-width: 479px) and (min-width: 320px) {
   .top-bottom-img img {
     max-width: 190px;
