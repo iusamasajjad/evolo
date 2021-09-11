@@ -31,6 +31,10 @@ body {
   font-size: 16px;
   font-weight: normal;
 }
+.fa {
+  font-weight: 600 !important;
+  opacity: 0.8;
+}
 .font-sm {
   font-size: 11px;
   color: #8c98a9 !important;
