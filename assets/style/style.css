@@ -9,20 +9,20 @@ body {
   background-color: #f4f6fc !important;
 }
 /* common-classess */
-.h-100vh{
+.h-100vh {
   height: 100vh;
 }
 .py-10 {
   padding: 80px 0px;
 }
-.top-14{
+.top-14 {
   top: 14px;
 }
 .px-10 {
   padding: 0px 100px;
 }
-.cursor-pointer{
-    cursor: pointer;
+.cursor-pointer {
+  cursor: pointer;
 }
 .z-1 {
   z-index: -1;
@@ -84,7 +84,7 @@ body {
   opacity: 0.7;
   background-color: #dce1ee;
 }
-.cross:hover{
+.cross:hover {
   opacity: unset;
   transition: 0.4s;
 }
@@ -109,30 +109,32 @@ form button {
   background-color: #0089f3;
   color: #fff;
 }
-form button:hover{
+form button:hover {
   opacity: 0.95;
   transition: 0.4s;
 }
 .eye {
-  top: 0;
-  right: -10px;
+  z-index: 2;
+  top: 10px;
+  right: 10px;
 }
 
 .bottom-img {
   bottom: 0;
   right: 0;
 }
-.mask-img-end img{
+.mask-img-end img {
   width: 100%;
 }
 
 /* ========= validation-styling ============== */
 
-.has-error input{
+.has-error input {
   border: 3px solid red !important;
   outline: none;
 }
-.error,label{
+.error,
+label {
   color: red;
 }
 
@@ -140,51 +142,51 @@ form button:hover{
   .top-bottom-img img {
     max-width: 190px;
   }
-  .px-10{
-      padding: 0px 0px  !important;
+  .px-10 {
+    padding: 0px 0px !important;
   }
-  .h-100vh{
+  .h-100vh {
     height: unset !important;
   }
 }
-@media (max-width: 567px) and (min-width: 480px) { 
-  .h-100vh{
+@media (max-width: 567px) and (min-width: 480px) {
+  .h-100vh {
     height: unset !important;
   }
 }
-@media (max-width: 684px) and (min-width: 568px) { 
-  .h-100vh{
+@media (max-width: 684px) and (min-width: 568px) {
+  .h-100vh {
     height: unset !important;
   }
-} 
-@media (max-width: 767px) and (min-width: 685px) { 
-    .top-bottom-img img {
-        max-width: 190px;
-      }
-      .px-10{
-          padding: 0px 0px  !important;
-      }
-      .h-100vh{
-        height: unset !important;
-      } 
+}
+@media (max-width: 767px) and (min-width: 685px) {
+  .top-bottom-img img {
+    max-width: 190px;
+  }
+  .px-10 {
+    padding: 0px 0px !important;
+  }
+  .h-100vh {
+    height: unset !important;
+  }
 }
 @media (max-width: 991px) and (min-width: 768px) {
-    .top-bottom-img img {
-        max-width: 190px;
-      }
-      .px-10{
-          padding: 0px 0px  !important;
-      }
-      .h-100vh{
-        height: unset !important;
-      }
- }  
+  .top-bottom-img img {
+    max-width: 190px;
+  }
+  .px-10 {
+    padding: 0px 0px !important;
+  }
+  .h-100vh {
+    height: unset !important;
+  }
+}
 @media (max-width: 991px) and (min-width: 768px) {
   .main-form {
     flex-direction: column !important;
     display: flex !important;
   }
-  .h-100vh{
+  .h-100vh {
     height: unset !important;
   }
 }
