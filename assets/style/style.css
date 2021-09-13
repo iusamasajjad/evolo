@@ -124,6 +124,10 @@ form button:hover {
   opacity: 0.95;
   transition: 0.4s;
 }
+
+/* ========= main-form-end ============ */
+
+/* ======== login-page-styling ========== */
 .eye {
   z-index: 2;
   opacity: 0.5;
